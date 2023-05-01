@@ -1,0 +1,245 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+.bold-head{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 90px;
+    color: #1A1919;
+    margin-left: 160px;
+}
+.bold-diff{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.paragraph{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-left: 160px;
+}
+.btn-start{
+    width: 172px;
+    height: 65px;
+    left: 300px;
+    top: 698px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    margin-left: 160px;
+
+}
+.category-part h2{
+    position: absolute;
+    width: 411px;
+    height: 66px;
+    left: 485px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+.category-part p{
+    position: absolute;
+    width: 653px;
+    height: 26px;
+    top: 950px;
+    left: 370px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    left: 30px;
+    top: 1030px;
+    gap: 25px;
+}
+.feature-part h2{
+    position: absolute;
+    width: 332px;
+    height: 66px;
+    left: 494px;
+    top: 1343px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #1A1919;
+}
+.feature-part p{
+    position: absolute;
+    width: 653px;
+    height: 26px;
+    left: 334px;
+    top: 1455px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+.jobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 1532px;
+    gap: 24px;
+}
+.btn-seeAll{
+    position: absolute;
+    width: 174px;
+    height: 65px;
+    left: 590px;
+    top: 2900px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+/*Responsive*/
+@media  screen and (max-width: 688px) {
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        width: 380px;
+        background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+        text-align: center;
+    }
+    .bold-head{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 45px;
+        color: #1A1919;
+        margin-left: 0px;
+    }
+    .paragraph{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #757575;
+        margin-left: 0px;
+    }
+
+    .banner img{
+        width: 380px;
+    }
+    .btn-start{
+        margin-left: 0px;
+    
+    }
+    .category-part h2{
+        position: absolute;
+        left: 0px;
+        width: 380px;
+        height: 66px;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 66px;
+        color: #1A1919;
+        text-align: center;
+    }
+    .category-part p{
+        position: absolute;
+        width: 380px;
+        height: 26px;
+        top: 990px;
+        left: 0px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #757575;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 45px;
+        top: 1080px;
+    }
+    .feature-part h2{
+        position: absolute;
+        width: 380px;
+        height: 66px;
+        left: 0px;
+        top: 2100px;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #1A1919;
+    }
+    .feature-part p{
+        position: absolute;
+        width: 380px;
+        height: 26px;
+        left: 0px;
+        top: 2200px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 15px;
+        text-align: center;
+        color: #757575;
+    }
+    .jobs{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 15px;
+        right: 150px;
+        top: 2300px;
+    }
+    .btn-seeAll{
+        position: absolute;
+        width: 174px;
+        height: 65px;
+        left: 100px;
+        top: 5000px;
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}

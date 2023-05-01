@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    width: 100%;
+    margin: auto;
+}
+.navbar a{
+    margin-right: 42px;
+    text-decoration: none;
+    color: black;
+}
+.btn-apply{
+    padding: 19px 28px;
+    gap: 10px;
+    width: 190px;
+    height: 65px;
+    left: 1430px;
+    top: 50px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+/*Responsive*/
+@media screen and (max-width: 688px){
+    .header, .header .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .btn-apply{
+        width: 110px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,82 @@
+.each-job{
+    width: 500px;
+    height: 370px;
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    padding: 20px;
+}
+.each-job h4{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+}
+.each-job .title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    color: #757575;
+}
+.each-job .first{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.each-job .first .type{
+    border-radius: 4px;
+    border: 1px solid #7E90FE;
+    padding: 5px;
+}
+.each-job .first .time{
+    border-radius: 4px;
+    border: 1px solid #7E90FE;
+    padding: 5px;
+}
+.each-job .two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+.btn-details{
+    width: 157px;
+    height: 49px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+}
+/*Responsive*/
+@media screen and (max-width:688px) {
+    .each-job{
+        width: 380px;
+        height: 400px;
+        border: 1px solid #EEE;
+        border-radius: 8px;
+        padding-left: 10px;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
